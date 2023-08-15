@@ -11,6 +11,12 @@
 		2C07A07A2A8A7FDB00934ABC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07A0792A8A7FDB00934ABC /* ContentView.swift */; };
 		2C07A07C2A8A7FDC00934ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C07A07B2A8A7FDC00934ABC /* Assets.xcassets */; };
 		2C07A07F2A8A7FDC00934ABC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C07A07E2A8A7FDC00934ABC /* Preview Assets.xcassets */; };
+		2C07A08A2A8A810F00934ABC /* NatureInspirations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07A0892A8A810F00934ABC /* NatureInspirations.swift */; };
+		2C07A08C2A8A850000934ABC /* InspirationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07A08B2A8A850000934ABC /* InspirationRowView.swift */; };
+		2C07A08E2A8A87BA00934ABC /* InspirationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07A08D2A8A87BA00934ABC /* InspirationCardView.swift */; };
+		2C07A0902A8A8C5000934ABC /* InspirationTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07A08F2A8A8C5000934ABC /* InspirationTileView.swift */; };
+		2C07A0922A8B306500934ABC /* InspirationGridSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07A0912A8B306500934ABC /* InspirationGridSectionView.swift */; };
+		2C07A0942A8B31FA00934ABC /* InspirationCardSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07A0932A8B31FA00934ABC /* InspirationCardSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		2C07A0792A8A7FDB00934ABC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C07A07B2A8A7FDC00934ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C07A07E2A8A7FDC00934ABC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C07A0892A8A810F00934ABC /* NatureInspirations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureInspirations.swift; sourceTree = "<group>"; };
+		2C07A08B2A8A850000934ABC /* InspirationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationRowView.swift; sourceTree = "<group>"; };
+		2C07A08D2A8A87BA00934ABC /* InspirationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationCardView.swift; sourceTree = "<group>"; };
+		2C07A08F2A8A8C5000934ABC /* InspirationTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationTileView.swift; sourceTree = "<group>"; };
+		2C07A0912A8B306500934ABC /* InspirationGridSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationGridSectionView.swift; sourceTree = "<group>"; };
+		2C07A0932A8B31FA00934ABC /* InspirationCardSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationCardSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				2C07A0772A8A7FDB00934ABC /* ScrollViewComplexLayoutsApp.swift */,
-				2C07A0792A8A7FDB00934ABC /* ContentView.swift */,
+				2C07A0852A8A80A000934ABC /* CustomCells */,
+				2C07A0862A8A80AC00934ABC /* ScrollViewContent */,
+				2C07A0872A8A80C800934ABC /* Scrolling */,
+				2C07A0882A8A80D500934ABC /* Data */,
 				2C07A07B2A8A7FDC00934ABC /* Assets.xcassets */,
 				2C07A07D2A8A7FDC00934ABC /* Preview Content */,
 			);
@@ -65,6 +80,41 @@
 				2C07A07E2A8A7FDC00934ABC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C07A0852A8A80A000934ABC /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				2C07A08B2A8A850000934ABC /* InspirationRowView.swift */,
+				2C07A08D2A8A87BA00934ABC /* InspirationCardView.swift */,
+				2C07A08F2A8A8C5000934ABC /* InspirationTileView.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		2C07A0862A8A80AC00934ABC /* ScrollViewContent */ = {
+			isa = PBXGroup;
+			children = (
+				2C07A0792A8A7FDB00934ABC /* ContentView.swift */,
+				2C07A0912A8B306500934ABC /* InspirationGridSectionView.swift */,
+				2C07A0932A8B31FA00934ABC /* InspirationCardSectionView.swift */,
+			);
+			path = ScrollViewContent;
+			sourceTree = "<group>";
+		};
+		2C07A0872A8A80C800934ABC /* Scrolling */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scrolling;
+			sourceTree = "<group>";
+		};
+		2C07A0882A8A80D500934ABC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2C07A0892A8A810F00934ABC /* NatureInspirations.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +188,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C07A07A2A8A7FDB00934ABC /* ContentView.swift in Sources */,
+				2C07A0902A8A8C5000934ABC /* InspirationTileView.swift in Sources */,
+				2C07A0942A8B31FA00934ABC /* InspirationCardSectionView.swift in Sources */,
+				2C07A08A2A8A810F00934ABC /* NatureInspirations.swift in Sources */,
+				2C07A08C2A8A850000934ABC /* InspirationRowView.swift in Sources */,
+				2C07A08E2A8A87BA00934ABC /* InspirationCardView.swift in Sources */,
 				2C07A0782A8A7FDB00934ABC /* ScrollViewComplexLayoutsApp.swift in Sources */,
+				2C07A0922A8B306500934ABC /* InspirationGridSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
